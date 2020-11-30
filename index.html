@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 1 - JavaScript</title>
+</head>
+<body>
+    <h3>Reto I - JavaScript</h3>
+    
+    <button name="btnPunto1" id="btnPunto1" onclick="calcularPunto1()"> Punto 1</button>
+    <button name="btnPunto2" id="btnPunto2" onclick="calcularPunto2()"> Punto 2</button>
+    <button name="btnPunto3" id="btnPunto3" onclick="calcularPunto3()"> Punto 3</button>
+    <button name="btnPunto4" id="btnPunto4" onclick="calcularPunto4()"> Punto 4</button>
+    <button name="btnLimpiar" id="btnLimpiar" onclick="limpiar()"> limpiar</button>
+    
+    <p id="elementoSalida"></p>
+
+    <script src="js/punto1.js"></script>
+    <script src="js/punto2.js"></script>
+    <script src="js/punto3.js"></script>
+    <script src="js/punto4.js"></script>
+    <script> 
+        function limpiar(){
+            document.getElementById("elementoSalida").innerHTML ="";
+        }
+    </script>
+</body>
+</html>
